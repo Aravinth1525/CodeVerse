@@ -19,7 +19,7 @@
         {
             "label": "compile and run",
             "type": "shell",
-            "command": "g++ -std=c++17 -o ./Arrays/${fileBasenameNoExtension} ${file} && ./Arrays/${fileBasenameNoExtension} < Input.txt > Output.txt",
+            "command": "g++ -std=c++17 -o ./Arrays/${fileBasenameNoExtension} ${file} && ./Arrays/${fileBasenameNoExtension} < input.txt > output.txt",
             "group": {
                 "kind": "build",
                 "isDefault": true
