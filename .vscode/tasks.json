@@ -8,7 +8,7 @@
             "args": [
                 "-std=c++17",
                 "-o",
-                "./Strings/${fileBasenameNoExtension}",
+                "./Sorting/${fileBasenameNoExtension}",
                 "${file}"
             ],
             "group": {
@@ -19,7 +19,7 @@
         {
             "label": "compile and run",
             "type": "shell",
-            "command": "g++ -std=c++17 -o ./Strings/${fileBasenameNoExtension} ${file} && ./Strings/${fileBasenameNoExtension} < input.txt > output.txt",
+            "command": "g++ -std=c++17 -o ./Sorting/${fileBasenameNoExtension} ${file} && ./Sorting/${fileBasenameNoExtension} < input.txt > output.txt",
             "group": {
                 "kind": "build",
                 "isDefault": true
